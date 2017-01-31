@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ExamenEv2</string>
+    <string name="tiempo">EL TIEMPO</string>
+    <string name="atom">DATOS ATOMICOS</string>
+    <string name="multi">MULTIMEDIA</string>
+    <string name="titulo">MENU PRINCIPAL</string>
+    <string name="exit">EXIT</string>
+    <string name="volver">VOLVER</string>
+
+    <!-- EJERCICIO 3 -->
+    <string name="audio">audio</string>
+    <string name="disparo">disparo</string>
+    <string name="explosion">explosion</string>
+
+    <!-- EJERCICIO 2 -->
+    <string name="descElemento">Introduce nombre de elemento quimico:</string>
+    <string name="info">Informacion del elemento:</string>
+    <string name="simbolo">Simbolo quimico:</string>
+    <string name="numero">Numero atomico:</string>
+    <string name="peso">Peso atomico:</string>
+    <string name="punto">Punto de Ebullicion:</string>
+    <string name="desnsidad">Densidad:</string>
+
+
+
+
+    <!-- EJERCICIO 1 -->
+    <string name="vitoria">VITORIA-GASTEIZ</string>
+    <string name="bilbo">BILBO-BILBAO</string>
+    <string name="donosti">DONOSTIA-SAN SEBASTIAN</string>
+    <string name="escoge">Escoge una de las siguientes localidades</string>
+    <string name="tutiempo">Tiempo actual en:</string>
+
+
+
+
+
+
+</resources>

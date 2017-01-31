@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_actividad2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.dm2.examenev2.atomicos">
+
+    <TextView android:id="@+id/lblDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descElemento"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        />
+
+
+    <EditText android:id="@+id/txtelemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblDesc"
+        android:inputType="text"/>
+
+    <Button android:id="@+id/btnInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:layout_below="@id/txtelemento"
+        android:layout_centerHorizontal="true"/>
+    <TextView android:id="@+id/lblSimbolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/simbolo"
+        android:layout_below="@id/btnInfo"
+        android:textColor="@color/blue"
+        android:textStyle="bold"/>
+    <TextView android:id="@+id/lblNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numero"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_below="@id/lblSimbolo"/>
+    <TextView android:id="@+id/lblPeso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/peso"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_below="@id/lblNumero"/>
+    <TextView android:id="@+id/lblPunto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/punto"
+        android:layout_below="@id/lblPeso"
+        android:textColor="@color/blue"
+        android:textStyle="bold"/>
+    <TextView android:id="@+id/lblDensidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desnsidad"
+        android:layout_below="@id/lblPunto"
+        android:textColor="@color/blue"
+        android:textStyle="bold"/>
+    <Button android:id="@+id/btnVolverAtom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/volver"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>
+
+

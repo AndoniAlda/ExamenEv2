@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dm2.examenev2.MainActivity"
+    >
+
+    <Button
+        android:text="@string/multi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/multi"
+        android:layout_gravity="center"
+        android:layout_below="@+id/atom"
+        android:layout_alignLeft="@+id/atom"
+        android:layout_alignStart="@+id/atom"
+        android:layout_alignRight="@+id/atom"
+        android:layout_alignEnd="@+id/atom" />
+
+    <Button
+        android:text="@string/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="@string/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="80px"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/tiempo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tiempo"
+        android:layout_gravity="center"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/atom"
+        android:layout_alignStart="@+id/atom"
+        android:layout_alignRight="@+id/atom"
+        android:layout_alignEnd="@+id/atom" />
+
+    <Button
+        android:text="@string/atom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atom"
+        android:layout_gravity="center"
+        android:layout_below="@+id/tiempo"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
